@@ -287,6 +287,20 @@
       <span class="post-meta-item-text">阅读次数：</span>
       <span id="busuanzi_value_page_pv"></span>
     </span>
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/archives/40329.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/archives/40329.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
       </div>
       <div class="post-meta">
     <span class="post-meta-item" title="本文字数">
@@ -390,7 +404,8 @@
 
 
 
-<script src="/js/comments.js"></script>
+
+    <div class="comments" id="valine-comments"></div><script src="/js/comments.js"></script>
 </div>
   </main>
 
@@ -466,6 +481,18 @@
 
 
 
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"1yOugQ2QTQ8LQeBUFwLpcviU-MdYXbMMI","appKey":"yaCCNI0rdojPTysCddrzzrbP","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":true,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/archives/40329.html",
+      serverURLs: "https://1yougq2q.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>

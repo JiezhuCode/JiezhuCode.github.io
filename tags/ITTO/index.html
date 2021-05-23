@@ -337,6 +337,18 @@
 
 
 
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"1yOugQ2QTQ8LQeBUFwLpcviU-MdYXbMMI","appKey":"yaCCNI0rdojPTysCddrzzrbP","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":true,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/tags/ITTO/",
+      serverURLs: "https://1yougq2q.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
+</script>
+
 </body>
 </html>
 
