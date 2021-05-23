@@ -250,8 +250,7 @@
     
     
 
-
-    <div class="comments" id="valine-comments"></div><script src="/js/comments.js"></script>
+<script src="/js/comments.js"></script>
 </div>
   </main>
 
@@ -327,18 +326,6 @@
 
 
 
-
-<script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"1yOugQ2QTQ8LQeBUFwLpcviU-MdYXbMMI","appKey":"yaCCNI0rdojPTysCddrzzrbP","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":true,"enableQQ":false,"requiredFields":[]}, {
-      el: '#valine-comments',
-      path: "/about/",
-      serverURLs: "https://1yougq2q.api.lncldglobal.com"
-    }));
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>
