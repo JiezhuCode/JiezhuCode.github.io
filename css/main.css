@@ -3177,6 +3177,7 @@ body {
   background-size: 100% 100%;
 }
 .content-wrap {
+  background-color: transparent;
   opacity: 0.8;
 }
 ​,
