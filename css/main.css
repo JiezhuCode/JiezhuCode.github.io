@@ -3177,15 +3177,17 @@ body {
   background-size: 100% 100%;
 }
 .content-wrap {
-  background-color: transparent;
-  opacity: 0.8;
+  opacity: 0.9;
+}
+.main-inner {
+  opacity: 0.9;
 }
 ​,
 .sidebar {
   background-color: transparent;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 ​,
 .header-inner {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
 }
