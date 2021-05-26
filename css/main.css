@@ -3170,21 +3170,3 @@ mark.search-keyword {
     padding: 10px 12px;
   }
 }
-body {
-  background-image: url("/images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-.main-inner {
-  opacity: 0.95;
-}
-​,
-.sidebar {
-  background-color: transparent;
-  opacity: 0.95;
-}
-​,
-.header-inner {
-  background: rgba(255,255,255,0.95);
-}
