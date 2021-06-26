@@ -1172,7 +1172,7 @@ pre code {
 }
 .pdfobject-container iframe,
 .pdfobject-container embed {
-  height: 800px;
+  height: 1000px;
   width: 100%;
 }
 .pagination .prev,
@@ -3094,7 +3094,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #91dee0;
+  background: #ffff4e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
