@@ -2956,3 +2956,12 @@ body {
 .sidebar-inner {
   opacity: 0.9;
 }
+.footer-inner {
+  color: #262626;
+}
+.fa-heart {
+  color: #f00;
+}
+.post-meta-item-icon {
+  color: #f00;
+}
